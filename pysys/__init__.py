@@ -14,7 +14,7 @@ def info():
     print("Number of CPUs: ", multiprocessing.cpu_count())
 
     # Display total memory in GB
-    total_memory = virtual_memory().total >> 30
+    total_memory = virtual_memory().total / 1e9
     print("Total Memory (GB): ", total_memory)
 
     host_ip = socket.gethostbyname(socket.gethostname())
