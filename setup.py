@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pysys',
-    version='0.1dev',
+    version='0.1',
     license='MIT',
     description='A simple Python package that returns information about the system it is run on.',
     long_description=open('README.md').read(),
