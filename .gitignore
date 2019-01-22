@@ -1,2 +1,3 @@
 .idea/
-pysys.egg-info/.DS_Store
+pysys.egg-info/
+.DS_Store
