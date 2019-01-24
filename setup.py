@@ -19,5 +19,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points={
+        'console_scripts': [
+            'pysys = pysys.main:main'
+        ]
+    }
 )
 
